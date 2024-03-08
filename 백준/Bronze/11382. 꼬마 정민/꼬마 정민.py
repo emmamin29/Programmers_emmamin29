@@ -1,0 +1,6 @@
+n = input()
+n_list=n.split()
+n1 = int(n_list[0])
+n2 = int(n_list[1])
+n3 = int(n_list[2])
+print(n1+n2+n3)
