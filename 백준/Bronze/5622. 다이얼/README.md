@@ -36,3 +36,32 @@
 
  <p>첫째 줄에 다이얼을 걸기 위해서 필요한 최소 시간을 출력한다.</p>
 
+
+
+
+ #코드 설명 
+
+ list 문 사용 
+ enumerate() 함수 사용
+ enumerate 함수란?
+ 
+ - for 문의 in 뒷부분을enumerate() 함수로 감싸서 사용
+
+  원래대로면 
+  for i in range(범위) 로 사용하는 것을 
+  ex. 
+  a= ['a','b','c','d']
+  for i in range(len(a)):
+      print(i,a[i])
+      
+  enumerate 함수를 이용하면 
+    a= ['a','b','c','d']
+    for i, value in enumerate(a):
+        print(i,value)  로 사용가능 
+        
+  
+ - 시작 인덱스 i로 설정하려면
+ - for i, in letter in enumerate(['A', 'B', 'C'], start = 1):
+       print(i, letter) 
+ 
+
